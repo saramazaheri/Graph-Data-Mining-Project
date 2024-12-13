@@ -1,0 +1,42 @@
+Starting probing: test, gpt-4, few-shot, question, CompoundHasParts
+
+defaultdict(<class 'str'>, {'What are the chemical components of Benzylpiperazine? Return the full name of components such as \'["carbon", "nitrogen"]\'.': '["nitrogen", "carbon", "hydrogen"]', 'What are the chemical components of Benzene? Return the full name of components such as \'["carbon", "nitrogen"]\'.': '["hydrogen", "carbon"]', 'What are the chemical components of Mercurous Bromide? Return the full name of components such as \'["carbon", "nitrogen"]\'.': '["mercury", "bromine"]', 'What are the chemical components of Tridecane? Return the full name of components such as \'["carbon", "nitrogen"]\'.': '["carbon", "hydrogen"]', 'What are the chemical components of Potassium Hydride? Return the full name of components such as \'["carbon", "nitrogen"]\'.': '["potassium", "hydrogen"]'}) 
+
+1874 What are the chemical components of Tenoxicam? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["hydrogen", "carbon", "nitrogen", "oxygen", "sulfur"]"
+
+1875 What are the chemical components of TNT? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["carbon", "hydrogen", "nitrogen", "oxygen"]"
+
+1876 What are the chemical components of Octadecane? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["carbon", "hydrogen"]"
+
+1877 What are the chemical components of Thymine? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["nitrogen", "hydrogen", "oxygen", "carbon"]"
+
+1878 What are the chemical components of Silver iodide? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["silver", "iodine"]"
+
+1879 What are the chemical components of Mustard Gas? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["sulfur", "carbon", "chlorine", "hydrogen"]"
+
+1880 What are the chemical components of Gallium Trichloride? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["gallium", "chlorine"]"
+
+1881 What are the chemical components of Docosane? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["carbon", "hydrogen"]"
+
+1882 What are the chemical components of Hydrogen Peroxide? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["hydrogen", "oxygen"]"
+
+1883 What are the chemical components of Cadmium sulfide? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["cadmium", "sulfur"]"
+
+1884 What are the chemical components of Aspirin? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["carbon", "hydrogen", "oxygen"]"
+
+1885 What are the chemical components of Bilirubin? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["carbon", "hydrogen", "oxygen", "nitrogen"]"
+
+1886 What are the chemical components of Cupric Phosphate? Return the full name of components such as '["carbon", "nitrogen"]'. Format the response as a Python list such as '["answer_a", "answer_b"]'.
+Answer is "["copper", "phosphorus", "oxygen"]"

@@ -25,7 +25,7 @@ def run(args):
 
     # load prompt template
     if args.prompt == 'question':
-        with open('../question-prompts.json', 'r') as f:
+        with open('./question-prompts.json', 'r') as f:
             prompt_templates = json.load(f)
         prompt_template = prompt_templates[args.relation]
     elif args.prompt == 'triple':
@@ -39,8 +39,8 @@ def run(args):
         train_df = read_lm_kbc_jsonl_to_df('data/train.jsonl')
         examples = example_generator(args.prompt, train_df, args.relation, prompt_template, False)
     elif args.setting == 'sem-sim' or 'context':  # PersonHasNobelPrize excluded
-        if os.path.exists('../examples.jsonl'):
-            example_df = read_lm_kbc_jsonl_to_df('../examples.jsonl')
+        if os.path.exists('./examples.jsonl'):
+            example_df = read_lm_kbc_jsonl_to_df('./examples.jsonl')
             examples = example_generator(args.prompt, example_df, args.relation, prompt_template, True)
         else:
             raise FileNotFoundError('No semantic similar examples found!')
@@ -75,7 +75,7 @@ def run(args):
             if args.relation == 'CountryHasStates':
                 context = wikipedia_geographical_context_loader(row['SubjectEntity'])
             elif args.relation == 'SeriesHasNumberOfEpisodes':
-                context = imdb_context_loader(row['SubjectEntity'], id_index_path='../context/imdb.series.index.json')
+                context = imdb_context_loader(row['SubjectEntity'], id_index_path='./context/imdb.series.index.json')
             else:
                 context = wikipedia_context_loader(row['SubjectEntity'])
             result = {
