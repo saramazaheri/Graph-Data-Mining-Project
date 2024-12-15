@@ -12,3 +12,4 @@ prettytable
 sparqlwrapper
 numpy
 sentence-transformers
+
